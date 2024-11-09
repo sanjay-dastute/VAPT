@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: vapt_user
+      POSTGRES_PASSWORD: vapt_password
+      POSTGRES_DB: vapt_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
