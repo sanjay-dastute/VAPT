@@ -1,0 +1,8 @@
+nohup: ignoring input
+
+> vapt-scanner-frontend@1.0.0 start
+> react-scripts start
+
+Could not find a required file.
+  Name: index.html
+  Searched in: /home/ubuntu/VAPT/frontend/public
