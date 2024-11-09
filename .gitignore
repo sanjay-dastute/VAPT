@@ -1,10 +1,9 @@
-
-# Python cache
-__pycache__/
-*.pyc
-
-# Node.js
+# Dependencies
 node_modules/
-.cache/
+**/.cache/
+# Build
 build/
 dist/
+# Python
+__pycache__/
+*.pyc
